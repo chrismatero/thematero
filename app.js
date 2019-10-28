@@ -15,3 +15,7 @@ const app = new App({
   console.log('⚡️ Bolt app is running!');
 })();
 
+app.event('app_home_opened', ({ event, say }) => {  
+  say(`Hello world, <@${event.user}>!`);
+});
+
