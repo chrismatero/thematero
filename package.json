@@ -2,7 +2,7 @@
   "name": "thematero",
   "version": "1.0.0",
   "description": "TheMatero BOT",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node ./src",
     "notify": "node ./src/tasks/notify",
