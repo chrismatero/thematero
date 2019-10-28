@@ -16,6 +16,6 @@ const app = new App({
 })();
 
 app.event('app_home_opened', ({ event, say }) => {  
-  say(`Hello world, <@${event.user}>!`);
+  say(`Hello... world, <@${event.user}>!`);
 });
 
